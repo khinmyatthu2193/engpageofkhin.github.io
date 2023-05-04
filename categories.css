@@ -1,0 +1,42 @@
+a{
+	text-decoration: none;
+	color: black;
+	font-family: Monotype Corsiva;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow:  #FF00FF 3px 3px 3px;
+}
+a:hover{
+	color: green;
+	text-shadow:  white 5px 5px 5px;
+}
+h3.hi{
+	text-align: center;
+	font-family: Time News Romans;
+	font-style: italic;
+	color: #8A2BE2	;
+	font-weight: bolder;
+	font-size: 40px;
+	text-shadow: black 2px 2px 2px;
+	background-color: #98FB98	;
+}
+h5{
+	font-family: Footlight MT Light;
+	font-weight: bolder;
+	text-shadow: none;
+	font-size: 25px;
+}
+body{
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color:#FBAA87;
+}
+table{
+	width: 70%;
+	margin-left: 250px;
+}
+h1{
+	color: #7FFFD4;
+	font-family: Time News Romen;
+	text-shadow: #C0C0C0 4PX 4PX;
+}

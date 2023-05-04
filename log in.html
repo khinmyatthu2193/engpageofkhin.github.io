@@ -1,0 +1,194 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Baganpagecss.css">
+	<style type="text/css">
+		
+		#ii{
+			width: 40px;
+			height: 40px;
+		}
+		#mm{
+			text-align: center;
+			font-family: Imprint MT Shadow;
+			font-size: 30px;
+		}
+		body{
+			background-color:#FBAA87;
+		}
+		button.b1{
+			font-size: 20px;
+			text-decoration: none;
+			color: #FF4500;
+			font-family: Berlin Sans FB;
+			background-position: center;
+			transition-duration: 0.4s;
+			background-color: #62E399;
+			border: 2px solid gray;
+			border-radius: 5px;
+			width: 100%;
+		}
+		.b1:hover {
+			background-color: #FAD7A0;
+			color: blue;
+			text-decoration: none;
+			font-family: MV Boli;
+			text-decoration: uppercase;
+		}
+		button.b2{
+			font-size: 20px;
+			text-decoration: none;
+			color: #FF4500;
+			font-family: Berlin Sans FB;
+			background-position: center;
+			transition-duration: 0.4s;
+			background-color: #1BC1D8;
+			border: 2px solid gray;
+			border-radius: 5px;
+			width: 100%;
+		}
+		.b2:hover {
+			background-color: #FAD7A0;
+			color: blue;
+			text-decoration: none;
+			font-family: MV Boli;
+			text-decoration: uppercase;
+		}
+		#fpw{
+			float: right;
+		}
+		p#cb{
+			float: left;
+		}
+		#text{
+			font-size: 11px;
+		}
+		table{
+			margin-top: 30px;
+		}
+		p{
+			color: black;
+			font-family: Bookman Old Style;
+			font-style: italic;
+			font-size: 20px;
+			font-weight: bold;		}
+	</style>
+	<script type="text/javascript">
+		function show()
+				{
+					window.open("signup.html","_blank","toolbar=yes,location=no,directories=yes, status=no, menubar=no,scrollbar=no,copyhistory=no,width=700,height=500");
+					myWindow.focus();			
+				}
+				function gotobook()
+				{
+					
+					var name=document.ContactForm.Name;
+					var pw=document.ContactForm.Password;
+					if(name.value=="" && pw.value=="")
+					{
+						window.alert("Please enter both your name and password.");
+						name.focus();
+						pw.focus();
+						return false;
+					}
+					else
+					window.open("https://www.education.com/stories/?gclid=CjwKCAjwo7iiBhAEEiwAsIxQEfQ7z3cQ_67S9IgT5Yp7S6CDxTqPzQJ-RxpHYZoLSCUYT_dj7BL1RxoC8pEQAvD_BwE");
+
+				}
+				function gg()
+				{
+					window.open("https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1");
+					myWindow.focus();			
+				}
+				function fb()
+				{
+					window.open("https://www.facebook.com/");
+					myWindow.focus();			
+				}
+	</script>
+
+
+</head>
+<body>
+	
+	<h1>Welcome!!&#128525; Enjoy the books by logging in......	&#128071;	&#128071;</h1>
+	<p>If you have some problems about loggin in, 	&#128073;<a href="3_contact us.html">contact us.</a> We are ready to help you.</p>
+	<table align="center" width="500" height="600" bgcolor="pink" cellspacing="0">
+		<form method="post" action="test.html" name="ContactForm" target="f2">
+							<tr>
+								<td colspan="2" id="mm">Member Log in</td>
+							</tr>
+							<tr>
+								<td width="5%">
+									<ul class="nav nav-tabs">
+										<li class="nav-item">
+											<img src="Icons/person-circle.svg" class="px-1" id="ii">	
+										</li>
+									</ul>
+								</td>
+								<td>
+									<input type="text" name="Name" class="form-control" placeholder="Name">
+								</td>
+							</tr>
+
+							<tr>
+								<td>
+									<ul class="nav nav-tabs">
+										<li class="nav-item">
+											<img src="Icons/lock-fill.svg" class="px-1" id="ii">	
+										</li>
+									</ul>
+								</td>
+								<td>
+									<input type="password" class="form-control" placeholder="Password" name="Password">
+								</td>
+							</tr>
+
+							<tr>
+								<td colspan="2">
+									<p>
+										<input type="checkbox" id="cb">Remember Me
+										<span id="fpw"><a href="https://support.google.com/mail/answer/41078?hl=en&co=GENIE.Platform%3DDesktop">Forget Password</a></span>
+									</p>	
+								</td>
+							</tr>
+
+							<tr>
+								<td colspan="2">
+									<div class="text-center">
+										<button class="b1" onclick="gotobook()">Log in
+									</div>
+							</tr>
+							<tr>
+								<td colspan="2" >
+									____________________________ or ____________________________					
+								</td>
+							<tr>
+								<td colspan="2">
+									<p><font face="time news romen">Don't have an account?</font></p>						
+								</td>
+							</tr>
+
+							<tr>
+								<td colspan="2">
+									<div class="text-center">
+										<button class="b2" onclick="show()">Sign Up
+									</div>
+								</td>
+							</tr>
+
+							<tr>
+								<td colspan="2">
+									<a href="#" onclick="gg()"><img src="pic\gg.png" width="240"></a>
+									<a href="#" id="fpw" onclick="fb()"><img src="pic\fb.png" width="240"></a>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<p align="center" id="text">By creating this account you agree our <font color="green">Privacy Policy</font> &amp; <font color="green">Cookie Policy<font> </p>
+								</td>
+							</tr>
+						</form>	
+		</table>
+</body>
+</html>
