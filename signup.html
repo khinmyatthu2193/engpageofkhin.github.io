@@ -83,11 +83,11 @@
 						insti.focus();
 						return false;
 					}
-					if(name.value!="" && pw.value!="" && email.value!="" && insti.value!="")
-					{
-					alert("Welcome to Khin's English Page!!!"+"\n\r"+"You are successfully sign up. Now you become a memeber of us. And you will get the notifications from our updates.");
-					window.open("https://www.education.com/stories/?gclid=CjwKCAjwo7iiBhAEEiwAsIxQEfQ7z3cQ_67S9IgT5Yp7S6CDxTqPzQJ-RxpHYZoLSCUYT_dj7BL1RxoC8pEQAvD_BwE");
-					}
+				}
+		function welcome()
+				{
+					window.open("welcome.html","_blank","toolbar=yes,location=no,directories=yes, status=no, menubar=no,scrollbar=no,copyhistory=no,width=700,height=500");
+					myWindow.focus();
 				}
 		function gg()
 				{
@@ -161,7 +161,7 @@
 						</ul>
 					</td>
 					<td>
-						<input type="text" name="insti" class="form-control" placeholder="Institution/Organization">
+						<input type="text" name="insti" class="form-control" placeholder="Occupation(eg:programmar)">
 					</td>
 				</tr>
 
@@ -177,7 +177,7 @@
 				<tr>
 					<td colspan="2">
 					<div class="text-center">
-						<button class="b1" onclick="show()">Sign Up
+						<button class="b1" onclick="welcome()">Sign Up
 					</div>
 				</tr>
 				<tr>
